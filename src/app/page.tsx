@@ -8,7 +8,6 @@ export default function LoginPage() {
 
   const handleLogin = () => {
     console.log("Logging in...", { role, branch });
-    // In a real app, this would use Supabase Auth and redirect to the appropriate portal
     alert(`Logged in as ${role} ${branch}`);
   };
 
